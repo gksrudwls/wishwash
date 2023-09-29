@@ -80,26 +80,6 @@ public class BoardActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton bt_b2 = (ImageButton) findViewById(R.id.bt_b2);
-        bt_b2.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MapActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        ImageButton bt_b3 = (ImageButton) findViewById(R.id.bt_b3);
-        bt_b3.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), BoardActivity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 
     String readDiary(String filename) {
